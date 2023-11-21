@@ -8,7 +8,7 @@ async function main() {
       data: {
         name: "Biceps",
         slug: "biceps",
-        imageUrl: "https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg",
+        imageUrl: "https://i.imgur.com/hIolTqj.png",
       },
     });
 
@@ -18,7 +18,7 @@ async function main() {
             enabled: true,
             difficulty: "Intermediário",
             instructions: "Segure a barra com as palmas viradas para fora e levante-a em direção ao peito, contraindo os músculos do bíceps.",
-            image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+            image: ["https://i.imgur.com/hIolTqj.png"],
             muscleId: bicepsMuscle.id,
             slug: "curl-com-barra"
           },
@@ -27,7 +27,7 @@ async function main() {
             enabled: true,
             difficulty: "Iniciante",
             instructions: "Segure um haltere em cada mão com as palmas voltadas para os lados. Levante os halteres em direção aos ombros.",
-            image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+            image: ["https://i.imgur.com/hIolTqj.png"],
             muscleId: bicepsMuscle.id,
             slug: "martelo-com-halteres"
           },
@@ -36,7 +36,7 @@ async function main() {
             enabled: true,
             difficulty: "Avançado",
             instructions: "Sente-se em um banco inclinado, coloque o cotovelo na parte interna da coxa e realize o curl com halteres, isolando o bíceps.",
-            image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+            image: ["https://i.imgur.com/hIolTqj.png"],
             muscleId: bicepsMuscle.id,
             slug: "curl-concentrado"
           },
@@ -45,7 +45,7 @@ async function main() {
             enabled: true,
             difficulty: "Avançado",
             instructions: "Realize 7 repetições na parte inferior do movimento, 7 na parte superior e 7 completas, mantendo a contração constante.",
-            image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+            image: ["https://i.imgur.com/hIolTqj.png"],
             muscleId: bicepsMuscle.id,
             slug: "curl-21s"
           },
@@ -54,7 +54,7 @@ async function main() {
             enabled: true,
             difficulty: "Intermediário",
             instructions: "Use um banco Scott para realizar curls, enfatizando a parte superior do bíceps.",
-            image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+            image: ["https://i.imgur.com/hIolTqj.png"],
             muscleId: bicepsMuscle.id,
             slug: "rosca-scott"
           },
@@ -63,7 +63,7 @@ async function main() {
             enabled: true,
             difficulty: "Iniciante",
             instructions: "Utilize uma máquina de cabo para realizar o curl, mantendo a resistência constante.",
-            image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+            image: ["https://i.imgur.com/hIolTqj.png"],
             muscleId: bicepsMuscle.id,
             slug: "curl-com-cabo"
           },
@@ -72,7 +72,7 @@ async function main() {
             enabled: true,
             difficulty: "Intermediário",
             instructions: "Realize o curl com barra invertida, mantendo as palmas viradas para o corpo.",
-            image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+            image: ["https://i.imgur.com/hIolTqj.png"],
             muscleId: bicepsMuscle.id,
             slug: "curl-invertido"
           },
@@ -81,7 +81,7 @@ async function main() {
             enabled: true,
             difficulty: "Avançado",
             instructions: "Variação do Curl 21s com a barra invertida.",
-            image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+            image: ["https://i.imgur.com/hIolTqj.png"],
             muscleId: bicepsMuscle.id,
             slug: "curl-21s-invertido"
           },
@@ -90,7 +90,7 @@ async function main() {
             enabled: true,
             difficulty: "Iniciante",
             instructions: "Segure um haltere em cada mão e alterne os curls, trabalhando cada braço separadamente.",
-            image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+            image: ["https://i.imgur.com/hIolTqj.png"],
             muscleId: bicepsMuscle.id,
             slug: "rosca-alternada"
           },
@@ -99,7 +99,7 @@ async function main() {
             enabled: true,
             difficulty: "Intermediário",
             instructions: "Utilize a máquina de curl para trabalhar os bíceps com resistência controlada.",
-            image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+            image: ["https://i.imgur.com/hIolTqj.png"],
             muscleId: bicepsMuscle.id,
             slug: "curl-na-maquina"
           },
@@ -108,7 +108,7 @@ async function main() {
             enabled: true,
             difficulty: "Avançado",
             instructions: "Divida o movimento em 7 repetições na parte inferior, 7 na parte superior e 7 completas.",
-            image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+            image: ["https://i.imgur.com/hIolTqj.png"],
             muscleId: bicepsMuscle.id,
             slug: "rosca-21s"
           },
@@ -117,7 +117,7 @@ async function main() {
             enabled: true,
             difficulty: "Avançado",
             instructions: "Variação do Curl 21s utilizando halteres.",
-            image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+            image: ["https://i.imgur.com/hIolTqj.png"],
             muscleId: bicepsMuscle.id,
             slug: "curl-21s-com-halteres"
           },
@@ -126,7 +126,7 @@ async function main() {
             enabled: true,
             difficulty: "Intermediário",
             instructions: "Realize o curl com barra invertida, enfatizando a parte inferior do bíceps.",
-            image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+            image: ["https://i.imgur.com/hIolTqj.png"],
             muscleId: bicepsMuscle.id,
             slug: "rosca-invertida"
           },
@@ -135,7 +135,7 @@ async function main() {
             enabled: true,
             difficulty: "Iniciante",
             instructions: "Utilize a corda na máquina de cabo para realizar o curl, mantendo os punhos neutros.",
-            image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+            image: ["https://i.imgur.com/hIolTqj.png"],
             muscleId: bicepsMuscle.id,
             slug: "curl-com-corda"
           },
@@ -144,7 +144,7 @@ async function main() {
             enabled: true,
             difficulty: "Iniciante",
             instructions: "Alterne os curls com halteres, focando no controle do movimento.",
-            image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+            image: ["https://i.imgur.com/hIolTqj.png"],
             muscleId: bicepsMuscle.id,
             slug: "rosca-alternada-com-halteres"
           },
@@ -153,7 +153,7 @@ async function main() {
             enabled: true,
             difficulty: "Avançado",
             instructions: "Realize o Curl 21s utilizando a máquina de curl para controle adicional.",
-            image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+            image: ["https://i.imgur.com/hIolTqj.png"],
             muscleId: bicepsMuscle.id,
             slug: "curl-21s-na-maquina"
           },
@@ -162,7 +162,7 @@ async function main() {
             enabled: true,
             difficulty: "Intermediário",
             instructions: "Segure-se na barra fixa e levante o corpo, concentrando o esforço nos bíceps.",
-            image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+            image: ["https://i.imgur.com/hIolTqj.png"],
             muscleId: bicepsMuscle.id,
             slug: "rosca-na-barra-fixa"
           },
@@ -176,7 +176,7 @@ async function main() {
         data: {
           name: "Triceps",
           slug: "triceps",
-          imageUrl: "https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg",
+          imageUrl: "https://i.imgur.com/hIolTqj.png",
         },
       });
       
@@ -186,7 +186,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Utilize a máquina de pulley com a corda para estender os braços, trabalhando os tríceps.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: tricepsMuscle.id,
           slug: "triceps-pulley"
         },
@@ -195,7 +195,7 @@ async function main() {
           enabled: true,
           difficulty: "Intermediário",
           instructions: "Com um haltere em uma mão, estenda o braço para trás, focando na parte posterior dos tríceps.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: tricepsMuscle.id,
           slug: "triceps-coice"
         },
@@ -204,7 +204,7 @@ async function main() {
           enabled: true,
           difficulty: "Intermediário",
           instructions: "Deitado em um banco, segure uma barra e estenda os braços sobre a testa, trabalhando os tríceps.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: tricepsMuscle.id,
           slug: "triceps-testa"
         },
@@ -213,7 +213,7 @@ async function main() {
           enabled: true,
           difficulty: "Avançado",
           instructions: "Utilize barras paralelas para realizar mergulhos, focando no trabalho intenso dos tríceps.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: tricepsMuscle.id,
           slug: "triceps-mergulho"
         },
@@ -222,7 +222,7 @@ async function main() {
           enabled: true,
           difficulty: "Intermediário",
           instructions: "Deitado em um banco, segure um haltere com as duas mãos e estenda os braços para trás.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: tricepsMuscle.id,
           slug: "triceps-frances"
         },
@@ -231,7 +231,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Utilize a corda na máquina de pulley para realizar extensões de tríceps.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: tricepsMuscle.id,
           slug: "triceps-corda"
         },
@@ -240,7 +240,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Incline o corpo para a frente, segure um haltere e estenda o braço para trás, trabalhando os tríceps.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: tricepsMuscle.id,
           slug: "triceps-kickback"
         },
@@ -249,7 +249,7 @@ async function main() {
           enabled: true,
           difficulty: "Intermediário",
           instructions: "Sentado em um banco, segure um haltere com ambas as mãos e estenda os braços acima da cabeça.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: tricepsMuscle.id,
           slug: "triceps-banco"
         },
@@ -258,7 +258,7 @@ async function main() {
           enabled: true,
           difficulty: "Avançado",
           instructions: "Utilize uma barra em V na máquina de pulley para realizar extensões de tríceps.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: tricepsMuscle.id,
           slug: "triceps-barra-v"
         },
@@ -267,7 +267,7 @@ async function main() {
           enabled: true,
           difficulty: "Avançado",
           instructions: "Utilize a corda na posição alta na máquina de pulley para realizar extensões de tríceps.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: tricepsMuscle.id,
           slug: "triceps-corda-alta"
         },
@@ -276,7 +276,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Segure um haltere com as duas mãos e estenda os braços acima da cabeça.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: tricepsMuscle.id,
           slug: "triceps-halteres"
         },
@@ -285,7 +285,7 @@ async function main() {
           enabled: true,
           difficulty: "Avançado",
           instructions: "Utilize a máquina de pulley com a barra invertida para realizar extensões de tríceps.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: tricepsMuscle.id,
           slug: "triceps-pulley-invertido"
         },
@@ -294,7 +294,7 @@ async function main() {
           enabled: true,
           difficulty: "Intermediário",
           instructions: "Utilize a máquina específica para treino de tríceps, ajustando o peso conforme necessário.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: tricepsMuscle.id,
           slug: "triceps-maquina"
         },
@@ -303,7 +303,7 @@ async function main() {
           enabled: true,
           difficulty: "Intermediário",
           instructions: "Segure uma barra EZ e estenda os braços para trás, concentrando o esforço nos tríceps.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: tricepsMuscle.id,
           slug: "triceps-rosca"
         },
@@ -312,7 +312,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Utilize a máquina de pulley com a corda para realizar extensões de tríceps, focando na amplitude.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: tricepsMuscle.id,
           slug: "triceps-pulley-corda"
         },
@@ -321,7 +321,7 @@ async function main() {
           enabled: true,
           difficulty: "Avançado",
           instructions: "Utilize um banco para realizar mergulhos, enfatizando o trabalho dos tríceps.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: tricepsMuscle.id,
           slug: "triceps-mergulho-bancada"
         },
@@ -330,7 +330,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Utilize a máquina de pulley com a barra reta para extensões de tríceps.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: tricepsMuscle.id,
           slug: "triceps-pulley-barra-reta"
         },
@@ -344,7 +344,7 @@ async function main() {
         data: {
           name: "Peito",
           slug: "peito",
-          imageUrl: "https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg",
+          imageUrl: "https://i.imgur.com/hIolTqj.png",
         },
       });
   
@@ -354,7 +354,7 @@ async function main() {
             enabled: true,
             difficulty: "Iniciante",
             instructions: "Deite-se em um banco plano e levante a barra em direção ao teto, trabalhando o peito.",
-            image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+            image: ["https://i.imgur.com/hIolTqj.png"],
             muscleId: peitoMuscle.id,
             slug: "supino-reto"
           },
@@ -363,7 +363,7 @@ async function main() {
             enabled: true,
             difficulty: "Intermediário",
             instructions: "Deite-se em um banco inclinado e levante a barra em direção ao teto, enfatizando a parte superior do peito.",
-            image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+            image: ["https://i.imgur.com/hIolTqj.png"],
             muscleId: peitoMuscle.id,
             slug: "supino-inclinado"
           },
@@ -372,7 +372,7 @@ async function main() {
             enabled: true,
             difficulty: "Iniciante",
             instructions: "Realize flexões de braço no chão, trabalhando o peito e os músculos do tronco.",
-            image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+            image: ["https://i.imgur.com/hIolTqj.png"],
             muscleId: peitoMuscle.id,
             slug: "flexao-de-braco"
           },
@@ -381,7 +381,7 @@ async function main() {
             enabled: true,
             difficulty: "Intermediário",
             instructions: "Utilize a máquina Peck Deck para realizar movimentos que isolam o peito.",
-            image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+            image: ["https://i.imgur.com/hIolTqj.png"],
             muscleId: peitoMuscle.id,
             slug: "maquina-peck-deck"
           },
@@ -390,7 +390,7 @@ async function main() {
             enabled: true,
             difficulty: "Avançado",
             instructions: "Utilize cabos cruzados na máquina de crossover para trabalhar os músculos peitorais.",
-            image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+            image: ["https://i.imgur.com/hIolTqj.png"],
             muscleId: peitoMuscle.id,
             slug: "crossover"
           },
@@ -399,7 +399,7 @@ async function main() {
             enabled: true,
             difficulty: "Intermediário",
             instructions: "Realize flexões de braço com os pés elevados, enfatizando a parte inferior do peito.",
-            image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+            image: ["https://i.imgur.com/hIolTqj.png"],
             muscleId: peitoMuscle.id,
             slug: "flexao-declinada"
           },
@@ -408,7 +408,7 @@ async function main() {
             enabled: true,
             difficulty: "Iniciante",
             instructions: "Deite-se em um banco e segure um haltere acima da cabeça, realizando movimentos de vai e vem.",
-            image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+            image: ["https://i.imgur.com/hIolTqj.png"],
             muscleId: peitoMuscle.id,
             slug: "pullover"
           },
@@ -417,7 +417,7 @@ async function main() {
             enabled: true,
             difficulty: "Iniciante",
             instructions: "Utilize a máquina de supino para realizar movimentos controlados.",
-            image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+            image: ["https://i.imgur.com/hIolTqj.png"],
             muscleId: peitoMuscle.id,
             slug: "supino-maquina"
           },
@@ -426,7 +426,7 @@ async function main() {
             enabled: true,
             difficulty: "Avançado",
             instructions: "Realize flexões de braço com as palmas das mãos levantadas do chão, trabalhando diferentes músculos do peito.",
-            image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+            image: ["https://i.imgur.com/hIolTqj.png"],
             muscleId: peitoMuscle.id,
             slug: "flexao-com-palmas"
           },
@@ -435,7 +435,7 @@ async function main() {
             enabled: true,
             difficulty: "Intermediário",
             instructions: "Deite-se em um banco declinado e levante a barra em direção ao teto, focando na parte inferior do peito.",
-            image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+            image: ["https://i.imgur.com/hIolTqj.png"],
             muscleId: peitoMuscle.id,
             slug: "supino-declinado"
           },
@@ -444,7 +444,7 @@ async function main() {
             enabled: true,
             difficulty: "Avançado",
             instructions: "Realize flexões de braço com um colete ponderado para aumentar a resistência.",
-            image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+            image: ["https://i.imgur.com/hIolTqj.png"],
             muscleId: peitoMuscle.id,
             slug: "flexao-com-peso"
           },
@@ -453,7 +453,7 @@ async function main() {
             enabled: true,
             difficulty: "Intermediário",
             instructions: "Utilize a máquina Fly para realizar movimentos de abertura, isolando o peito.",
-            image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+            image: ["https://i.imgur.com/hIolTqj.png"],
             muscleId: peitoMuscle.id,
             slug: "maquina-fly"
           },
@@ -462,7 +462,7 @@ async function main() {
             enabled: true,
             difficulty: "Iniciante",
             instructions: "Deite-se em um banco e levante halteres em direção ao teto, trabalhando cada lado separadamente.",
-            image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+            image: ["https://i.imgur.com/hIolTqj.png"],
             muscleId: peitoMuscle.id,
             slug: "supino-halteres"
           },
@@ -471,7 +471,7 @@ async function main() {
             enabled: true,
             difficulty: "Iniciante",
             instructions: "Realize flexões de braço com as mãos posicionadas formando um diamante, focando nos tríceps e no peito.",
-            image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+            image: ["https://i.imgur.com/hIolTqj.png"],
             muscleId: peitoMuscle.id,
             slug: "flexao-diamond"
           },
@@ -480,7 +480,7 @@ async function main() {
             enabled: true,
             difficulty: "Intermediário",
             instructions: "Utilize uma pegada mais estreita na barra para enfocar os músculos tríceps e o peito.",
-            image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+            image: ["https://i.imgur.com/hIolTqj.png"],
             muscleId: peitoMuscle.id,
             slug: "supino-fechado"
           },
@@ -489,7 +489,7 @@ async function main() {
             enabled: true,
             difficulty: "Avançado",
             instructions: "Utilize a máquina Pullover para realizar movimentos controlados que trabalham o peito e os músculos dorsais.",
-            image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+            image: ["https://i.imgur.com/hIolTqj.png"],
             muscleId: peitoMuscle.id,
             slug: "maquina-pullover"
           },
@@ -498,7 +498,7 @@ async function main() {
             enabled: true,
             difficulty: "Avançado",
             instructions: "Realize flexões de braço com rotação do tronco, ativando diferentes áreas do peito.",
-            image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+            image: ["https://i.imgur.com/hIolTqj.png"],
             muscleId: peitoMuscle.id,
             slug: "flexao-com-rotacao"
           },
@@ -507,7 +507,7 @@ async function main() {
             enabled: true,
             difficulty: "Avançado",
             instructions: "Utilize dois bancos paralelos para realizar dips, focando no trabalho do peito e tríceps.",
-            image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+            image: ["https://i.imgur.com/hIolTqj.png"],
             muscleId: peitoMuscle.id,
             slug: "dips-no-banco"
           },
@@ -516,7 +516,7 @@ async function main() {
             enabled: true,
             difficulty: "Intermediário",
             instructions: "Deite-se em um banco inclinado e realize movimentos de abertura com halteres.",
-            image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+            image: ["https://i.imgur.com/hIolTqj.png"],
             muscleId: peitoMuscle.id,
             slug: "fly-com-halteres-inclinado"
           },
@@ -525,7 +525,7 @@ async function main() {
             enabled: true,
             difficulty: "Iniciante",
             instructions: "Utilize a máquina específica para flexão de peito, ajustando o peso conforme necessário.",
-            image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+            image: ["https://i.imgur.com/hIolTqj.png"],
             muscleId: peitoMuscle.id,
             slug: "flexao-na-maquina"
           },
@@ -534,7 +534,7 @@ async function main() {
             enabled: true,
             difficulty: "Intermediário",
             instructions: "Realize supino com uma barra com pegada neutra, enfocando os músculos do peito de maneira diferente.",
-            image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+            image: ["https://i.imgur.com/hIolTqj.png"],
             muscleId: peitoMuscle.id,
             slug: "supino-com-pegada-neutra"
           },
@@ -543,7 +543,7 @@ async function main() {
             enabled: true,
             difficulty: "Avançado",
             instructions: "Realize flexões de braço explosivas, tirando as mãos do chão durante o movimento.",
-            image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+            image: ["https://i.imgur.com/hIolTqj.png"],
             muscleId: peitoMuscle.id,
             slug: "flexao-plyo"
           },
@@ -552,7 +552,7 @@ async function main() {
             enabled: true,
             difficulty: "Iniciante",
             instructions: "Deite-se em um banco e segure uma barra acima da cabeça, realizando movimentos de vai e vem.",
-            image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+            image: ["https://i.imgur.com/hIolTqj.png"],
             muscleId: peitoMuscle.id,
             slug: "pullover-com-barra"
           },
@@ -561,7 +561,7 @@ async function main() {
             enabled: true,
             difficulty: "Intermediário",
             instructions: "Deite-se em um banco declinado e levante halteres em direção ao teto, focando na parte inferior do peito.",
-            image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+            image: ["https://i.imgur.com/hIolTqj.png"],
             muscleId: peitoMuscle.id,
             slug: "supino-declinado-com-halteres"
           },
@@ -570,7 +570,7 @@ async function main() {
             enabled: true,
             difficulty: "Intermediário",
             instructions: "Utilize a máquina de Chest Press para realizar movimentos controlados.",
-            image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+            image: ["https://i.imgur.com/hIolTqj.png"],
             muscleId: peitoMuscle.id,
             slug: "chest-press-na-maquina"
           },
@@ -580,7 +580,7 @@ async function main() {
               enabled: true,
               difficulty: "Avançado",
               instructions: "Realize flexões de braço, mantendo a posição por alguns segundos no ponto mais baixo do movimento.",
-              image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+              image: ["https://i.imgur.com/hIolTqj.png"],
               muscleId: peitoMuscle.id
           },
           {
@@ -589,7 +589,7 @@ async function main() {
               enabled: true,
               difficulty: "Intermediário",
               instructions: "Deite-se em um banco inclinado e levante halteres em direção ao teto.",
-              image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+              image: ["https://i.imgur.com/hIolTqj.png"],
               muscleId: peitoMuscle.id
           },
           {
@@ -598,7 +598,7 @@ async function main() {
               enabled: true,
               difficulty: "Avançado",
               instructions: "Utilize a máquina de crossover com os cabos posicionados em altura para realizar movimentos de cruzamento.",
-              image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+              image: ["https://i.imgur.com/hIolTqj.png"],
               muscleId: peitoMuscle.id
           },
           {
@@ -607,7 +607,7 @@ async function main() {
               enabled: true,
               difficulty: "Intermediário",
               instructions: "Posicione os cabos da máquina de crossover na altura média para realizar movimentos de cruzamento.",
-              image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+              image: ["https://i.imgur.com/hIolTqj.png"],
               muscleId: peitoMuscle.id
           },
           {
@@ -616,7 +616,7 @@ async function main() {
               enabled: true,
               difficulty: "Iniciante",
               instructions: "Ajuste os cabos da máquina de crossover para a posição baixa e realize movimentos de cruzamento.",
-              image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+              image: ["https://i.imgur.com/hIolTqj.png"],
               muscleId: peitoMuscle.id
           },
           {
@@ -625,7 +625,7 @@ async function main() {
               enabled: true,
               difficulty: "Avançado",
               instructions: "Segure um haltere em cada mão e cruze os braços no centro do corpo, focando no peito.",
-              image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+              image: ["https://i.imgur.com/hIolTqj.png"],
               muscleId: peitoMuscle.id
           },
           {
@@ -634,7 +634,7 @@ async function main() {
               enabled: true,
               difficulty: "Intermediário",
               instructions: "Fixe elásticos em uma estrutura estável e realize movimentos de crossover para trabalhar o peito.",
-              image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+              image: ["https://i.imgur.com/hIolTqj.png"],
               muscleId: peitoMuscle.id
           },
       ];
@@ -647,7 +647,7 @@ async function main() {
         data: {
           name: "Costas",
           slug: "costas",
-          imageUrl: "https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg",
+          imageUrl: "https://i.imgur.com/hIolTqj.png",
         },
       });
       
@@ -657,7 +657,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Segure-se em uma barra fixa e levante o corpo, trabalhando os músculos das costas.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: costasMuscle.id,
           slug: "barra-fixa"
         },
@@ -666,7 +666,7 @@ async function main() {
           enabled: true,
           difficulty: "Intermediário",
           instructions: "Utilize a máquina de puxada frontal para trabalhar os músculos das costas.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: costasMuscle.id,
           slug: "puxada-frontal"
         },
@@ -675,7 +675,7 @@ async function main() {
           enabled: true,
           difficulty: "Intermediário",
           instructions: "Incline-se em um banco e realize movimentos de puxada com uma barra, trabalhando as costas.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: costasMuscle.id,
           slug: "remada-curvada"
         },
@@ -684,7 +684,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Utilize a máquina de Pull Down para puxar a barra em direção ao peito, trabalhando as costas.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: costasMuscle.id,
           slug: "pull-down"
         },
@@ -693,7 +693,7 @@ async function main() {
           enabled: true,
           difficulty: "Avançado",
           instructions: "Levante a barra do chão mantendo a coluna ereta, trabalhando os músculos das costas.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: costasMuscle.id,
           slug: "levantamento-terra"
         },
@@ -702,7 +702,7 @@ async function main() {
           enabled: true,
           difficulty: "Intermediário",
           instructions: "Com um haltere em cada mão, realize movimentos de remada unilateral.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: costasMuscle.id,
           slug: "remada-unilateral-com-halteres"
         },
@@ -711,7 +711,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Deite-se em um banco e segure um haltere acima da cabeça, realizando movimentos de vai e vem.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: costasMuscle.id,
           slug: "pull-over"
         },
@@ -720,7 +720,7 @@ async function main() {
           enabled: true,
           difficulty: "Intermediário",
           instructions: "Utilize a máquina específica para Pulldown para trabalhar os músculos das costas.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: costasMuscle.id,
           slug: "maquina-pulldown"
         },
@@ -729,7 +729,7 @@ async function main() {
           enabled: true,
           difficulty: "Avançado",
           instructions: "Deite-se de bruços em um banco inclinado e realize movimentos de remada com halteres.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: costasMuscle.id,
           slug: "remada-cavalinho"
         },
@@ -738,7 +738,7 @@ async function main() {
           enabled: true,
           difficulty: "Intermediário",
           instructions: "Utilize a máquina específica para Puxada para trabalhar os músculos das costas.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: costasMuscle.id,
           slug: "puxada-na-maquina"
         },
@@ -747,7 +747,7 @@ async function main() {
           enabled: true,
           difficulty: "Avançado",
           instructions: "Com um haltere em uma mão e um joelho apoiado no banco, realize movimentos de remada unilateral.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: costasMuscle.id,
           slug: "remada-serrote"
         },
@@ -756,7 +756,7 @@ async function main() {
           enabled: true,
           difficulty: "Avançado",
           instructions: "Realize elevações na barra fixa, trabalhando os músculos das costas e dos braços.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: costasMuscle.id,
           slug: "pull-up"
         },
@@ -765,7 +765,7 @@ async function main() {
           enabled: true,
           difficulty: "Intermediário",
           instructions: "Utilize a máquina Smith para realizar movimentos de remada, focando nas costas.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: costasMuscle.id,
           slug: "remada-na-maquina-smith"
         },
@@ -774,7 +774,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Posicione-se em um banco inclinado e realize movimentos de remada com a barra T.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: costasMuscle.id,
           slug: "remada-com-barra-t"
         },
@@ -783,7 +783,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Utilize a máquina Pullover para trabalhar os músculos das costas e do peito.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: costasMuscle.id,
           slug: "maquina-pullover"
         },
@@ -792,7 +792,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Utilize um banco romano para realizar hiperextensões, fortalecendo a região lombar e os músculos das costas.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: costasMuscle.id,
           slug: "hiperextensao"
         },
@@ -801,7 +801,7 @@ async function main() {
           enabled: true,
           difficulty: "Intermediário",
           instructions: "Utilize a máquina de puxada alta para trabalhar os músculos superiores das costas.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: costasMuscle.id,
           slug: "puxada-alta"
         },
@@ -810,7 +810,7 @@ async function main() {
           enabled: true,
           difficulty: "Intermediário",
           instructions: "Utilize a máquina específica para Row para realizar movimentos controlados, trabalhando as costas.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: costasMuscle.id,
           slug: "maquina-row"
         },
@@ -819,7 +819,7 @@ async function main() {
           enabled: true,
           difficulty: "Avançado",
           instructions: "Utilize a máquina unilateral para realizar movimentos de remada, trabalhando cada lado separadamente.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: costasMuscle.id,
           slug: "remada-na-maquina-unilateral"
         },
@@ -828,7 +828,7 @@ async function main() {
           enabled: true,
           difficulty: "Avançado",
           instructions: "Utilize a máquina de Pulldown Invertido para trabalhar os músculos das costas de maneira diferente.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: costasMuscle.id,
           slug: "pulldown-invertido"
         },
@@ -837,7 +837,7 @@ async function main() {
           enabled: true,
           difficulty: "Intermediário",
           instructions: "Utilize a barra em triângulo na máquina para realizar movimentos de remada baixa.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: costasMuscle.id,
           slug: "remada-baixa-com-triangulo"
         },
@@ -846,7 +846,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Fixe elásticos em uma estrutura estável e realize movimentos de puxada para trabalhar as costas.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: costasMuscle.id,
           slug: "puxada-com-elasticos"
         },
@@ -855,7 +855,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Utilize uma barra em V na máquina para realizar movimentos de puxada, focando nas costas.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: costasMuscle.id,
           slug: "puxada-na-barra-em-v"
         },
@@ -864,7 +864,7 @@ async function main() {
           enabled: true,
           difficulty: "Intermediário",
           instructions: "Utilize a corda na máquina de pulley para realizar movimentos de remada.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: costasMuscle.id,
           slug: "remada-com-corda"
         },
@@ -873,7 +873,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Utilize a máquina específica para Lat Pulldown para trabalhar os músculos das costas.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: costasMuscle.id,
           slug: "maquina-lat-pulldown"
         },
@@ -887,7 +887,7 @@ async function main() {
         data: {
           name: "Ombros",
           slug: "ombros",
-          imageUrl: "https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg",
+          imageUrl: "https://i.imgur.com/hIolTqj.png",
         },
       });
       
@@ -897,7 +897,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Em pé, levante a barra sobre a cabeça, trabalhando os músculos dos ombros.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: ombrosMuscle.id,
           slug: "desenvolvimento-com-barra"
         },
@@ -906,7 +906,7 @@ async function main() {
           enabled: true,
           difficulty: "Intermediário",
           instructions: "Com um haltere em cada mão, eleve os braços à frente, focando nos deltoides anteriores.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: ombrosMuscle.id,
           slug: "elevacao-frontal-com-halteres"
         },
@@ -915,7 +915,7 @@ async function main() {
           enabled: true,
           difficulty: "Intermediário",
           instructions: "Sentado, levante os halteres sobre a cabeça, trabalhando os músculos dos ombros.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: ombrosMuscle.id,
           slug: "desenvolvimento-com-halteres"
         },
@@ -924,7 +924,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Com um haltere em cada mão, eleve os braços para os lados, trabalhando os deltoides laterais.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: ombrosMuscle.id,
           slug: "elevacao-lateral-com-halteres"
         },
@@ -933,7 +933,7 @@ async function main() {
           enabled: true,
           difficulty: "Avançado",
           instructions: "Realize um movimento combinado de rotação dos ombros durante o levantamento da barra.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: ombrosMuscle.id,
           slug: "press-arnold"
         },
@@ -942,7 +942,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Utilize a corda na máquina de pulley para elevar os braços à frente.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: ombrosMuscle.id,
           slug: "elevacao-frontal-com-corda"
         },
@@ -951,7 +951,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Utilize a máquina Smith para realizar desenvolvimentos controlados.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: ombrosMuscle.id,
           slug: "desenvolvimento-com-maquina-smith"
         },
@@ -960,7 +960,7 @@ async function main() {
           enabled: true,
           difficulty: "Intermediário",
           instructions: "Utilize a máquina específica para elevação lateral, isolando os deltoides laterais.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: ombrosMuscle.id,
           slug: "elevacao-lateral-na-maquina"
         },
@@ -969,7 +969,7 @@ async function main() {
           enabled: true,
           difficulty: "Intermediário",
           instructions: "Sentado, levante a barra sobre a cabeça, trabalhando os músculos dos ombros.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: ombrosMuscle.id,
           slug: "desenvolvimento-militar"
         },
@@ -978,7 +978,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Com um haltere em cada mão, eleve os braços para trás, trabalhando os deltoides posteriores.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: ombrosMuscle.id,
           slug: "elevacao-posterior-com-halteres"
         },
@@ -987,7 +987,7 @@ async function main() {
           enabled: true,
           difficulty: "Intermediário",
           instructions: "Em pé, levante a barra à frente do corpo, focando nos deltoides anteriores.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: ombrosMuscle.id,
           slug: "desenvolvimento-com-barra-frontal"
         },
@@ -1001,7 +1001,7 @@ async function main() {
         data: {
           name: "Abdômen",
           slug: "abdomen",
-          imageUrl: "https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg",
+          imageUrl: "https://i.imgur.com/hIolTqj.png",
         },
       });
       
@@ -1011,7 +1011,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Deite-se de costas, dobre os joelhos e levante o tronco em direção aos joelhos.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: abdomenMuscle.id,
           slug: "crunch"
         },
@@ -1020,7 +1020,7 @@ async function main() {
           enabled: true,
           difficulty: "Intermediário",
           instructions: "Fique em posição de flexão, mantendo o corpo reto como uma prancha.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: abdomenMuscle.id,
           slug: "prancha-frontal"
         },
@@ -1029,7 +1029,7 @@ async function main() {
           enabled: true,
           difficulty: "Intermediário",
           instructions: "Deite-se de costas e levante as pernas, alternando entre elas em movimento de tesoura.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: abdomenMuscle.id,
           slug: "tesoura"
         },
@@ -1038,7 +1038,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Realize crunches direcionando os cotovelos em direção ao joelho oposto.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: abdomenMuscle.id,
           slug: "abdominal-obliquo"
         },
@@ -1047,7 +1047,7 @@ async function main() {
           enabled: true,
           difficulty: "Avançado",
           instructions: "Deite-se de costas e levante as pernas em direção ao teto, mantendo-as retas.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: abdomenMuscle.id,
           slug: "elevacao-de-pernas"
         },
@@ -1056,7 +1056,7 @@ async function main() {
           enabled: true,
           difficulty: "Intermediário",
           instructions: "Fique de lado, apoiando-se no cotovelo e mantendo o corpo reto como uma prancha lateral.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: abdomenMuscle.id,
           slug: "prancha-lateral"
         },
@@ -1065,7 +1065,7 @@ async function main() {
           enabled: true,
           difficulty: "Intermediário",
           instructions: "Deite-se de costas, simule o movimento de pedalar uma bicicleta.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: abdomenMuscle.id,
           slug: "bicicleta"
         },
@@ -1074,7 +1074,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Deite-se de costas, levante as pernas e puxe os joelhos em direção ao peito.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: abdomenMuscle.id,
           slug: "reverse-crunch"
         },
@@ -1083,7 +1083,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Utilize a máquina específica para abdominais, seguindo as instruções do equipamento.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: abdomenMuscle.id,
           slug: "maquina-abdominal"
         },
@@ -1092,7 +1092,7 @@ async function main() {
           enabled: true,
           difficulty: "Avançado",
           instructions: "Em posição de flexão, traga alternadamente os joelhos em direção ao peito em movimento rápido.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: abdomenMuscle.id,
           slug: "mountain-climber"
         },
@@ -1107,7 +1107,7 @@ async function main() {
         data: {
           name: "Quadríceps",
           slug: "quadriceps",
-          imageUrl: "https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg",
+          imageUrl: "https://i.imgur.com/hIolTqj.png",
         },
       });
       
@@ -1117,7 +1117,7 @@ async function main() {
           enabled: true,
           difficulty: "Intermediário",
           instructions: "Posicione a barra sobre os ombros e agache, mantendo a postura correta.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: quadricepsMuscle.id,
           slug: "agachamento-livre"
         },
@@ -1126,7 +1126,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Utilize a máquina de leg press para pressionar as pernas para fora.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: quadricepsMuscle.id,
           slug: "leg-press"
         },
@@ -1135,7 +1135,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Sente-se na cadeira extensora e estenda as pernas contra a resistência.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: quadricepsMuscle.id,
           slug: "cadeira-extensora"
         },
@@ -1144,7 +1144,7 @@ async function main() {
           enabled: true,
           difficulty: "Intermediário",
           instructions: "Utilize a máquina Smith para realizar agachamentos com orientação vertical.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: quadricepsMuscle.id,
           slug: "agachamento-smith"
         },
@@ -1153,7 +1153,7 @@ async function main() {
           enabled: true,
           difficulty: "Intermediário",
           instructions: "Dê um passo à frente e desça o corpo, mantendo o joelho de trás próximo ao chão.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: quadricepsMuscle.id,
           slug: "afundo"
         },
@@ -1162,7 +1162,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Sente-se na máquina adutora e pressione as pernas uma contra a outra.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: quadricepsMuscle.id,
           slug: "maquina-adutora"
         },
@@ -1171,7 +1171,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Utilize a máquina de prensa inclinada a 45 graus para pressionar as pernas para cima.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: quadricepsMuscle.id,
           slug: "prensa-45-graus"
         },
@@ -1180,7 +1180,7 @@ async function main() {
           enabled: true,
           difficulty: "Avançado",
           instructions: "Realize agachamentos segurando a barra à frente do corpo, focando nos quadríceps.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: quadricepsMuscle.id,
           slug: "agachamento-frontal"
         },
@@ -1189,7 +1189,7 @@ async function main() {
           enabled: true,
           difficulty: "Intermediário",
           instructions: "Dê um passo à frente e desça o corpo, alternando as pernas.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: quadricepsMuscle.id,
           slug: "passada"
         },
@@ -1198,7 +1198,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Sente-se na cadeira abdutora e afaste as pernas contra a resistência.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: quadricepsMuscle.id,
           slug: "cadeira-abdutora"
         },
@@ -1213,7 +1213,7 @@ async function main() {
         data: {
           name: "Posterior de Pernas",
           slug: "posterior_pernas",
-          imageUrl: "https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg",
+          imageUrl: "https://i.imgur.com/hIolTqj.png",
         },
       });
       
@@ -1223,7 +1223,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Sentado na máquina, flexione as pernas pressionando o peso para cima.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: posteriorMuscle.id,
           slug: "flexao-pernas-prensa"
         },
@@ -1232,7 +1232,7 @@ async function main() {
           enabled: true,
           difficulty: "Intermediário",
           instructions: "Em pé, segure a barra na frente do corpo e incline o tronco para frente, mantendo as pernas estendidas.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: posteriorMuscle.id,
           slug: "stiff"
         },
@@ -1241,7 +1241,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Sente-se na máquina flexora e flexione as pernas contra a resistência.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: posteriorMuscle.id,
           slug: "cadeira-flexora"
         },
@@ -1250,7 +1250,7 @@ async function main() {
           enabled: true,
           difficulty: "Avançado",
           instructions: "Em pé, segure a barra na frente do corpo e levante-a mantendo as costas retas.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: posteriorMuscle.id,
           slug: "levantamento-terra"
         },
@@ -1259,7 +1259,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Sente-se na máquina extensora e estenda as pernas contra a resistência.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: posteriorMuscle.id,
           slug: "maquina-extensora"
         },
@@ -1268,7 +1268,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Deite-se de bruços, flexione as pernas levando os calcanhares em direção ao glúteo.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: posteriorMuscle.id,
           slug: "flexao-pernas-deitado"
         },
@@ -1277,7 +1277,7 @@ async function main() {
           enabled: true,
           difficulty: "Intermediário",
           instructions: "Com a barra nas costas, dê passos alternados para trás, flexionando os joelhos.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: posteriorMuscle.id,
           slug: "afundo-barra"
         },
@@ -1286,7 +1286,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Deite-se de bruços na máquina flexora e flexione as pernas contra a resistência.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: posteriorMuscle.id,
           slug: "mesa-flexora"
         },
@@ -1295,7 +1295,7 @@ async function main() {
           enabled: true,
           difficulty: "Intermediário",
           instructions: "Na máquina, puxe a carga flexionando as pernas contra a resistência.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: posteriorMuscle.id,
           slug: "puxada-pernas"
         },
@@ -1304,7 +1304,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Sente-se na cadeira abdutora e afaste as pernas contra a resistência.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: posteriorMuscle.id,
           slug: "cadeira-abdutora"
         },
@@ -1319,7 +1319,7 @@ async function main() {
         data: {
           name: "Glúteos",
           slug: "gluteos",
-          imageUrl: "https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg",
+          imageUrl: "https://i.imgur.com/hIolTqj.png",
         },
       });
       
@@ -1329,7 +1329,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Deite-se de costas, dobre os joelhos e levante os quadris em direção ao teto.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: gluteosMuscle.id,
           slug: "elevacao-quadril"
         },
@@ -1338,7 +1338,7 @@ async function main() {
           enabled: true,
           difficulty: "Intermediário",
           instructions: "Fique com os pés afastados, vire os dedos para fora e agache, mantendo as costas retas.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: gluteosMuscle.id,
           slug: "agachamento-sumo"
         },
@@ -1347,7 +1347,7 @@ async function main() {
           enabled: true,
           difficulty: "Intermediário",
           instructions: "Dê um passo lateral e agache, alternando entre as pernas.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: gluteosMuscle.id,
           slug: "afundo-passada-lateral"
         },
@@ -1356,7 +1356,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Sente-se na máquina abdutora e afaste as pernas contra a resistência.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: gluteosMuscle.id,
           slug: "maquina-abdutora"
         },
@@ -1365,7 +1365,7 @@ async function main() {
           enabled: true,
           difficulty: "Intermediário",
           instructions: "Posicione a barra sobre os ombros e agache, mantendo a postura correta.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: gluteosMuscle.id,
           slug: "agachamento-livre"
         },
@@ -1374,7 +1374,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Deite-se de costas, dobre os joelhos e levante os quadris em direção ao teto.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: gluteosMuscle.id,
           slug: "ponte-gluteo"
         },
@@ -1383,7 +1383,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Sente-se na cadeira adutora e junte as pernas contra a resistência.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: gluteosMuscle.id,
           slug: "cadeira-adutora"
         },
@@ -1392,7 +1392,7 @@ async function main() {
           enabled: true,
           difficulty: "Intermediário",
           instructions: "Em pé, segure a barra na frente do corpo e incline o tronco para frente, mantendo as pernas estendidas.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: gluteosMuscle.id,
           slug: "stiff"
         },
@@ -1401,7 +1401,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Sente-se na máquina extensora e estenda as pernas contra a resistência.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: gluteosMuscle.id,
           slug: "maquina-extensora"
         },
@@ -1410,7 +1410,7 @@ async function main() {
           enabled: true,
           difficulty: "Intermediário",
           instructions: "Dê um passo à frente e desça o corpo, mantendo o joelho de trás próximo ao chão.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: gluteosMuscle.id,
           slug: "afundo"
         },
@@ -1424,7 +1424,7 @@ async function main() {
         data: {
           name: "Panturrilha",
           slug: "panturrilha",
-          imageUrl: "https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg",
+          imageUrl: "https://i.imgur.com/hIolTqj.png",
         },
       });
       
@@ -1434,7 +1434,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Em pé, eleve os calcanhares o máximo possível, contraindo as panturrilhas.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: panturrilhaMuscle.id,
           slug: "elevacao-panturrilha-em-pe"
         },
@@ -1443,7 +1443,7 @@ async function main() {
           enabled: true,
           difficulty: "Intermediário",
           instructions: "Sente-se em uma máquina específica e eleve os calcanhares, contraindo as panturrilhas.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: panturrilhaMuscle.id,
           slug: "elevacao-panturrilha-sentado"
         },
@@ -1452,7 +1452,7 @@ async function main() {
           enabled: true,
           difficulty: "Intermediário",
           instructions: "Em pé, eleve um calcanhar por vez, concentrando o esforço em uma perna de cada vez.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: panturrilhaMuscle.id,
           slug: "elevacao-panturrilha-unilateral"
         },
@@ -1461,7 +1461,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Utilize a máquina de leg press para elevar os calcanhares, contraindo as panturrilhas.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: panturrilhaMuscle.id,
           slug: "panturrilha-leg-press"
         },
@@ -1470,7 +1470,7 @@ async function main() {
           enabled: true,
           difficulty: "Intermediário",
           instructions: "Realize saltos elevando as panturrilhas ao máximo durante o salto.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: panturrilhaMuscle.id,
           slug: "salto-elevacao-panturrilha"
         },
@@ -1485,7 +1485,7 @@ async function main() {
         data: {
           name: "Antebraço",
           slug: "antebraco",
-          imageUrl: "https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg",
+          imageUrl: "https://i.imgur.com/hIolTqj.png",
         },
       });
       
@@ -1495,7 +1495,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Segure a barra com as palmas viradas para cima e levante, contraindo os músculos dos antebraços.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: antebracoMuscle.id,
           slug: "rosca-direta-barra"
         },
@@ -1504,7 +1504,7 @@ async function main() {
           enabled: true,
           difficulty: "Intermediário",
           instructions: "Segure halteres com as palmas viradas para o corpo e levante, contraindo os músculos dos antebraços.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: antebracoMuscle.id,
           slug: "rosca-martelo"
         },
@@ -1513,7 +1513,7 @@ async function main() {
           enabled: true,
           difficulty: "Intermediário",
           instructions: "Segure a barra com as palmas viradas para baixo e levante, contraindo os músculos dos antebraços.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: antebracoMuscle.id,
           slug: "rosca-inversa"
         },
@@ -1522,7 +1522,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Segure um haltere e mova o pulso para cima e para baixo, contraindo os músculos dos antebraços.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: antebracoMuscle.id,
           slug: "pronacao-supinacao-punho"
         },
@@ -1531,7 +1531,7 @@ async function main() {
           enabled: true,
           difficulty: "Iniciante",
           instructions: "Segure um haltere e mova o pulso para cima, contraindo os músculos dos antebraços.",
-          image: ["https://static.wixstatic.com/media/2edbed_3a892edf193b49b5a851171c02e0cc68~mv2.jpg"],
+          image: ["https://i.imgur.com/hIolTqj.png"],
           muscleId: antebracoMuscle.id,
           slug: "extensao-punho"
         },
