@@ -11,12 +11,13 @@ model Muscle {
   id String @id @default(uuid())
   name String
   slug String
-  imageUrl String[]
+  imageUrl String
   exercises Exercise[]
 }
 
 model Exercise {
   id String @id @default(uuid())
+  name String
   enabled Boolean @default(false)
   difficulty String
   instructions String
