@@ -1,5 +1,6 @@
 import Image from "next/image";
-import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTrigger } from "./sheet";
+import { Sheet, SheetClose, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTrigger } from "./sheet";
+import Link from "next/link";
 
 const Header = () => {
     return (
@@ -18,7 +19,11 @@ const Header = () => {
                     <SheetHeader className="text-left text-lg font-semibold">
                         <SheetTitle>Titulo</SheetTitle>
                         <SheetDescription>
-                            Em breve
+                            <SheetClose asChild>
+                                <Link href={'/catalog'}>
+                                    Músculos
+                                </Link>
+                            </SheetClose>
                         </SheetDescription>
                     </SheetHeader>
                 </SheetContent>
