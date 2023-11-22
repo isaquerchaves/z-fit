@@ -17,7 +17,7 @@ const Header = () => {
                 </SheetTrigger>
                 <SheetContent side="left" className="bg-[#181A20]">
                     <SheetHeader className="text-left text-lg font-semibold">
-                        <SheetTitle>Titulo</SheetTitle>
+                        <SheetTitle>Z-Fit</SheetTitle>
                         <SheetDescription>
                             <SheetClose asChild>
                                 <Link href={'/catalog'}>
