@@ -8,17 +8,8 @@ export default function Home() {
         <p className=' text-x2 font-bold text-start opacity-80'>Bem vindo,  </p>
         <p className='text-2xl text-start opacity-95'>Isaque Chaves !</p>
       </div>
-      <div className='py-4 bg-gradient-to-b from-accent via-accent-light to-gray-1000 p-4 rounded-xl border'>
-        <p className='uppercase opacity-80'>Progresso</p>
-        <div className='flex flex-row justify-between p-5'>
-          <div>
-            <p className=' text-3xl font-bold'>10 %</p>
-            <p className=' text-[#0B46C7] font-bold'>10/30</p>
-          </div>
-          <p className='text-center font-bold opacity-80'>Expira em <br /> 20 dias </p>
-        </div>
-      </div> 
-      <div className='flex flex-col justify-around h-full py-4'>
+      <div className='flex flex-col h-full py-4 justify-between '>
+        <div>
           <p className='uppercase opacity-80'>Treino atual</p>
             <div className='relative h-[150px] w-full overflow-hidden'>
               <Image
@@ -42,6 +33,8 @@ export default function Home() {
                 </button>
               </div>
             </div>
+        </div>
+          
         <div className='flex flex-col justify-around h-full py-4'>
           <p className='uppercase opacity-80'>Próximo treino</p>
           <div className='relative h-[150px] w-full overflow-hidden'>
