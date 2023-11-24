@@ -8,7 +8,7 @@ export default function Home() {
         <p className=' text-x2 font-bold text-start opacity-80'>Bem vindo,  </p>
         <p className='text-2xl text-start opacity-95'>Isaque Chaves !</p>
       </div>
-      <div className='flex flex-col h-full py-4 justify-between '>
+      <div className='flex flex-col justify-between h-full py-10 gap-10'>
         <div>
           <p className='uppercase opacity-80'>Treino atual</p>
             <div className='relative h-[150px] w-full overflow-hidden'>
