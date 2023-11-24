@@ -15,5 +15,4 @@ const MuscleExercises = async () => {
         </div>
     );
 }
-
 export default MuscleExercises;

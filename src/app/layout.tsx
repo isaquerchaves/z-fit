@@ -3,6 +3,8 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/ui/header'
 import { Separator } from '@/components/ui/separator'
+import Footer from '@/components/ui/footer'
+import { ScrollArea } from "@/components/ui/scroll-area";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,11 +20,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-
       <body className={inter.className}>
-        <Header />
-        <Separator />
-        <div>{children}</div>
+        <div className="flex h-full flex-col">
+          <Header />
+          <Separator />
+          <ScrollArea className="h-full">
+            <div className="flex-1 overflow-hidden">{children}</div>
+          </ScrollArea>
+          <Separator />
+          <Footer />
+        </div>
       </body>
     </html>
   )
