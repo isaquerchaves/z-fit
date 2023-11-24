@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Footer = () => {
     return (
-        <div className="px-8 py-4 flex flex-row justify-around items-center">
+        <div className="px-2 py-4 flex flex-row justify-around items-center">
             <Link href='/' >
                 <button className="flex flex-col items-center">
                     <Home/>
