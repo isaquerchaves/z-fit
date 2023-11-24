@@ -28,8 +28,9 @@ export default function Home() {
                 Peito, Tríceps, Ombros
               </p>
               <div className='absolute right-2 top-1/2 transform -translate-y-1/2'>
-                <button>
-                  <PlayCircle size={50} color='#0B46C7' className=''/>
+                <button className='flex flex-col justify-center items-center gap-1'>
+                  <PlayCircle size={50} color='white'  className=''/>
+                  <p className='text-xs font-bold'>INICIAR</p>
                 </button>
               </div>
             </div>
@@ -54,8 +55,8 @@ export default function Home() {
                 Costa, Bíceps, Antebraço
               </p>
               <div className='absolute right-2 top-1/2 transform -translate-y-1/2'>
-                <button>
-                  <Eye size={50} color='#0B46C7' className=''/>
+                <button className='flex flex-col justify-center items-center'>
+                  <Eye size={50}  color='white'  className=''/>
                 </button>
               </div>
             </div>
