@@ -11,7 +11,7 @@ export default function Home() {
       <div className='flex flex-col justify-between h-full py-10 gap-10'>
         <div>
           <p className='uppercase opacity-80'>Treino atual</p>
-            <div className='relative h-[150px] w-full overflow-hidden'>
+            <div className='relative h-[150px] w-full overflow-hidden rounded-2xl'>
               <Image
                 src='/treino_atual_homem.jpg'
                 alt='proximo_treino_homem'
@@ -37,7 +37,7 @@ export default function Home() {
           
         <div className='flex flex-col justify-around h-full py-4'>
           <p className='uppercase opacity-80'>Próximo treino</p>
-          <div className='relative h-[150px] w-full overflow-hidden'>
+          <div className='relative h-[150px] w-full overflow-hidden rounded-2xl'>
               <Image
                 src='/proximo_treino_homem.jpg'
                 alt='proximo_treino_homem'
