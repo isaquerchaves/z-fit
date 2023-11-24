@@ -29,8 +29,8 @@ export default function Home() {
               </p>
               <div className='absolute right-2 top-1/2 transform -translate-y-1/2'>
                 <button className='flex flex-col justify-center items-center gap-1'>
-                  <PlayCircle size={50} color='white'  className=''/>
-                  <p className='text-xs font-bold'>INICIAR</p>
+                  <PlayCircle size={50} color='yellow'  className=''/>
+                  <p className='text-xs font-bold text-yellow-50'>INICIAR</p>
                 </button>
               </div>
             </div>
@@ -56,7 +56,7 @@ export default function Home() {
               </p>
               <div className='absolute right-2 top-1/2 transform -translate-y-1/2'>
                 <button className='flex flex-col justify-center items-center'>
-                  <Eye size={50}  color='white'  className=''/>
+                  <Eye size={50}  color='yellow'  className=''/>
                 </button>
               </div>
             </div>
