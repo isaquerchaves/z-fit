@@ -1,7 +1,75 @@
+import { Eye, PlayCircle } from 'lucide-react'
 import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div>home</div>
+    <div className='flex flex-col px-4'>
+      <div className='w-[50%] py-4'>
+        <p className=' text-x2 font-bold text-start opacity-80'>Bem vindo,  </p>
+        <p className='text-2xl text-start opacity-95'>Isaque Chaves !</p>
+      </div>
+      <div className='py-4 bg-gradient-to-b from-accent via-accent-light to-gray-1000 p-4 rounded-xl border'>
+        <p className='uppercase opacity-80'>Progresso</p>
+        <div className='flex flex-row justify-between p-5'>
+          <div>
+            <p className=' text-3xl font-bold'>10 %</p>
+            <p className=' text-[#0B46C7] font-bold'>10/30</p>
+          </div>
+          <p className='text-center font-bold opacity-80'>Expira em <br /> 20 dias </p>
+        </div>
+      </div> 
+      <div className='flex flex-col justify-around h-full py-4'>
+          <p className='uppercase opacity-80'>Treino atual</p>
+            <div className='relative h-[150px] w-full overflow-hidden'>
+              <Image
+                src='/treino_atual_homem.jpg'
+                alt='proximo_treino_homem'
+                width={0}
+                height={100}
+                sizes="100vw"
+                className='max-h-[100%] max-w-[100%] h-[100%] w-[100%] opacity-40'
+                style={{
+                  objectFit: "fill",
+                }}
+              />
+              <p className='absolute left-2 bottom-2 px-2 py-[2px] text-lg whitespace-nowrap overflow-hidden truncate'
+                style={{ textShadow: '1px 1px 1px black, -1px -1px 1px black, 1px -1px 1px black, -1px 1px 1px black' }}>
+                Peito, Tríceps, Ombros
+              </p>
+              <div className='absolute right-2 top-1/2 transform -translate-y-1/2'>
+                <button>
+                  <PlayCircle size={50} color='#0B46C7' className=''/>
+                </button>
+              </div>
+            </div>
+        <div className='flex flex-col justify-around h-full py-4'>
+          <p className='uppercase opacity-80'>Próximo treino</p>
+          <div className='relative h-[150px] w-full overflow-hidden'>
+              <Image
+                src='/proximo_treino_homem.jpg'
+                alt='proximo_treino_homem'
+                width={0}
+                height={100}
+                sizes="100vw"
+                className='max-h-[100%] max-w-[100%] h-[100%] w-[100%] opacity-40'
+                style={{
+                  objectFit: "fill",
+                }}
+              />
+              <p className='absolute left-2 bottom-2 px-2 py-[2px] text-lg whitespace-nowrap overflow-hidden truncate'
+                style={{ textShadow: '1px 1px 1px black, -1px -1px 1px black, 1px -1px 1px black, -1px 1px 1px black' }}>
+                Costa, Bíceps, Antebraço
+              </p>
+              <div className='absolute right-2 top-1/2 transform -translate-y-1/2'>
+                <button>
+                  <Eye size={50} color='#0B46C7' className=''/>
+                </button>
+              </div>
+            </div>
+        </div>
+
+
+      </div>
+    </div>
   )
 }
