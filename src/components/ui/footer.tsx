@@ -10,19 +10,19 @@ const Footer = () => {
                     <p className="pt-1 text-xs">Home</p>
                 </button>
             </Link>
-            <Link href='/' >
+            <Link href='/trainings' >
                 <button className="flex flex-col items-center">
                     <Dumbbell />
                     <p className="pt-1 text-xs">Treinos</p>
                 </button>
             </Link>
-            <Link href='/' >
+            <Link href='/user' >
                 <button className="flex flex-col items-center">
                     <User />
                     <p className="pt-1 text-xs">Usuário</p>
                 </button>
             </Link>
-            <Link href='/' >
+            <Link href='/configs' >
                 <button className="flex flex-col items-center">
                     <Settings />
                     <p className="pt-1 text-xs">Configurações</p>
