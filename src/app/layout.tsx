@@ -24,9 +24,7 @@ export default function RootLayout({
         <div className="flex h-full flex-col">
           <Header />
           <Separator />
-          <ScrollArea className="h-full">
-            <div className="flex-1 overflow-hidden">{children}</div>
-          </ScrollArea>
+            <div className="h-full flex-1 overflow-hidden">{children}</div>
           <Separator />
           <Footer />
         </div>
