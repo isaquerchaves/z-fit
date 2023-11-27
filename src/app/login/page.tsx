@@ -21,7 +21,7 @@ const Login = () => {
                         <Input className="bg-[#15171CF2]" type="email" id="email" placeholder="Email" />
                     </div>
                     <div className="pt-4">
-                        <p className="pb-2 ">Password</p>
+                        <p className="pb-2 ">Senha</p>
                         <Input className="bg-[#15171CF2]" type="password" id="password" placeholder="Password" />
                     </div>
                     <div className="flex justify-between">
