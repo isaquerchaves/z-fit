@@ -4,7 +4,7 @@ import './globals.css'
 import Header from '@/components/ui/header'
 import { Separator } from '@/components/ui/separator'
 import Footer from '@/components/ui/footer'
-import { ScrollArea } from "@/components/ui/scroll-area";
+import { AuthProvider } from '@/providers/auth'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,13 +21,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="flex h-full flex-col">
-          <Header />
-          <Separator />
+        <AuthProvider>
+          <div className="flex h-full flex-col">
+            <Header />
+            <Separator />
             <div className="h-full flex-1 overflow-hidden">{children}</div>
-          <Separator />
-          <Footer />
-        </div>
+            <Separator />
+            <Footer />
+          </div>
+        </AuthProvider>
       </body>
     </html>
   )

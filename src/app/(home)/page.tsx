@@ -1,12 +1,16 @@
+"use client"
+
 import { Eye, PlayCircle } from 'lucide-react'
+import { useSession } from 'next-auth/react';
 import Image from 'next/image'
 
 export default function Home() {
+  const {data} = useSession();
   return (
     <div className='flex flex-col px-4'>
       <div className='w-[50%] py-4'>
         <p className=' text-x2 font-bold text-start opacity-80'>Bem vindo,  </p>
-        <p className='text-2xl text-start opacity-95'>Isaque Chaves !</p>
+        <p className='text-2xl text-start opacity-95'>{data?.user?.name}</p>
       </div>
       <div className='flex flex-col justify-between h-full py-10 gap-10'>
         <div>

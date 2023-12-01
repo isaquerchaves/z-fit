@@ -1,10 +1,19 @@
-import { HandMetal, User } from "lucide-react";
+"use client"
+
+import { HandMetal } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Separator } from "@/components/ui/separator";
 import Image from "next/image";
 import Link from "next/link";
+import { signIn, useSession } from "next-auth/react";
 
 const Login = () => {
+    const handleLoginClick = async () => {
+        await signIn()
+    };
+
+    const {data} = useSession();
+
     return (
         <div className="p-4">
             <div className="flex flex-col gap-3 py-2">
@@ -45,8 +54,7 @@ const Login = () => {
                 <p className="text-sm">ou</p>
                 <Separator />
             </div>
-            <div>
-                <button className="bg-[#15171CF2] p-4 w-full rounded-full">
+                <button onClick={handleLoginClick} className="bg-[#15171CF2] p-4 w-full rounded-full">
                     <div className="flex flex-row items-center justify-center gap-4">
                         <Image 
                             src="/google.png"
@@ -57,7 +65,7 @@ const Login = () => {
                         <p className="text-sm">Continue com o Google</p>
                     </div>
                 </button>
-            </div>
+                <p>{data?.user?.name}</p>
         </div>
     );
 }
