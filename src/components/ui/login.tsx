@@ -7,13 +7,13 @@ import Image from "next/image";
 import Link from "next/link";
 import { signIn, useSession } from "next-auth/react";
 
-const Login = () => {
+const Login = ({ router }:any) => {
+    const {data} = useSession();
+
     const handleLoginClick = async () => {
         await signIn()
     };
-
-    const {data} = useSession();
-
+  
     return (
         <div className="p-4">
             <div className="flex flex-col gap-3 py-2">
@@ -42,7 +42,7 @@ const Login = () => {
                         </Link>
                     </div>
                     <div className="pt-4">
-                        <button className="bg-[#0B46C7] p-4 w-full rounded-full">
+                        <button className="bg-[#0B46C7] p-3 w-full rounded-full">
                         <p className="text-sm">Entrar</p>
                 </button>
                     </div>
@@ -54,7 +54,7 @@ const Login = () => {
                 <p className="text-sm">ou</p>
                 <Separator />
             </div>
-                <button onClick={handleLoginClick} className="bg-[#15171CF2] p-4 w-full rounded-full">
+                <button onClick={handleLoginClick} className="bg-[#15171CF2] p-3 w-full rounded-full">
                     <div className="flex flex-row items-center justify-center gap-4">
                         <Image 
                             src="/google.png"
