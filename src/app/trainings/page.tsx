@@ -1,19 +1,18 @@
-"use client"
-
 import Login from "@/components/ui/login";
-import { PlusIcon } from "lucide-react";
-import { useSession } from "next-auth/react";
-import NoTraining from "./components/no-training";
+import CreateTraining from "./components/create-training";
+import { getServerSession } from "next-auth";
+import { authOptions } from "@/lib/auth";
 
-const Trainings = () => {
-    const { data } = useSession();
+const Trainings = async () => {
+    const session = await getServerSession(authOptions);
+
+    if (!session || !session.user) {
+        return <Login />;
+    }
 
     return (
         <>
-            {data ?
-                <NoTraining/>
-                : <Login />
-            }
+            <CreateTraining />
         </>
     );
 }

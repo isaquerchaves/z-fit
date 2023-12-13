@@ -1,11 +1,14 @@
 "use client"
 
 import Login from '@/components/ui/login';
+import { authOptions } from '@/lib/auth';
 import { Eye, PlayCircle } from 'lucide-react'
+import { getServerSession } from 'next-auth';
 import { useSession } from 'next-auth/react';
 import Image from 'next/image'
 
-export default function Home() {
+const Home = () => {
+
   const { data } = useSession();
 
   return (
@@ -74,3 +77,5 @@ export default function Home() {
     </>
   )
 }
+
+export default Home;
