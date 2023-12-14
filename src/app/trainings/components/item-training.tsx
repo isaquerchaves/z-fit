@@ -7,7 +7,7 @@ const ItemTraining = async () => {
         }
     });
     return ( 
-        <div>
+        <div className="grid grid-cols-2 gap-4">
             {split.map(
                 (split) => (
                     <div>

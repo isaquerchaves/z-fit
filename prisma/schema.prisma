@@ -25,6 +25,28 @@ model Exercise {
   slug String
   muscleId String
   muscle Muscle @relation(fields: [muscleId], references: [id])
+  training Training[]
+}
+
+model TrainingSplit {
+  id String @id @default(uuid())
+  name String
+  enabled Boolean @default(true)
+  training Training[]
+}
+
+model Training {
+  id String @id @default(uuid())
+  userId String
+  user User @relation(fields: userId, references: [id])
+  name String
+  order Int
+  current Boolean
+  next Boolean
+  trainingSplitId String
+  trainingSplit TrainingSplit @relation(fields: [trainingSplitId], references: [id])
+  exerciseId String
+  exercice Exercise @relation(fields: exerciseId, references: [id])
 }
 
 model Account {
@@ -62,6 +84,7 @@ model User {
   image         String?
   accounts      Account[]
   sessions      Session[]
+  training      Training[]
 }
 
 model VerificationToken {
@@ -70,10 +93,4 @@ model VerificationToken {
   expires    DateTime
 
   @@unique([identifier, token])
-}
-
-model TrainingSplit {
-  id String @id @default(uuid())
-  name String
-  enabled Boolean @default(true)
 }
