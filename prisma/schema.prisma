@@ -25,7 +25,7 @@ model Exercise {
   slug String
   muscleId String
   muscle Muscle @relation(fields: [muscleId], references: [id])
-  training Training[]
+  trainingExercise TrainingExercise[]
 }
 
 model TrainingSplit {
@@ -45,8 +45,15 @@ model Training {
   next Boolean
   trainingSplitId String
   trainingSplit TrainingSplit @relation(fields: [trainingSplitId], references: [id])
+  trainingExercise TrainingExercise[]
+}
+
+model TrainingExercise {
+  id String @id @default(uuid())
+  trainingId String
   exerciseId String
-  exercice Exercise @relation(fields: exerciseId, references: [id])
+  training Training @relation(fields: trainingId, references: [id])
+  exercise Exercise @relation(fields: exerciseId, references: [id])
 }
 
 model Account {
