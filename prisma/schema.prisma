@@ -8,67 +8,67 @@ datasource db {
 }
 
 model Muscle {
-  id String @id @default(uuid())
-  name String
-  slug String
-  imageUrl String
+  id        String     @id @default(uuid())
+  name      String
+  slug      String
+  imageUrl  String
   exercises Exercise[]
 }
 
 model Exercise {
-  id String @id @default(uuid())
-  name String
-  enabled Boolean @default(false)
-  difficulty String
-  instructions String
-  image String[]
-  slug String
-  muscleId String
-  muscle Muscle @relation(fields: [muscleId], references: [id])
+  id               String             @id @default(uuid())
+  name             String
+  enabled          Boolean            @default(false)
+  difficulty       String
+  instructions     String
+  image            String[]
+  slug             String
+  muscle_id        String
+  muscle           Muscle             @relation(fields: [muscle_id], references: [id])
   trainingExercise TrainingExercise[]
 }
 
 model TrainingSplit {
-  id String @id @default(uuid())
-  name String
-  enabled Boolean @default(true)
+  id       String     @id @default(uuid())
+  name     String
+  enabled  Boolean    @default(true)
   training Training[]
 }
 
 model Training {
-  id String @id @default(uuid())
-  userId String
-  user User @relation(fields: userId, references: [id])
-  name String
-  order Int
-  current Boolean
-  next Boolean
-  trainingSplitId String
-  trainingSplit TrainingSplit @relation(fields: [trainingSplitId], references: [id])
+  id               String             @id @default(uuid())
+  userId           String
+  user             User               @relation(fields: userId, references: [id])
+  name             String
+  order            Int
+  current          Boolean
+  next             Boolean
+  trainingSplitId  String
+  trainingSplit    TrainingSplit      @relation(fields: [trainingSplitId], references: [id])
   trainingExercise TrainingExercise[]
 }
 
 model TrainingExercise {
-  id String @id @default(uuid())
+  id         String   @id @default(uuid())
   trainingId String
   exerciseId String
-  training Training @relation(fields: trainingId, references: [id])
-  exercise Exercise @relation(fields: exerciseId, references: [id])
+  training   Training @relation(fields: trainingId, references: [id])
+  exercise   Exercise @relation(fields: exerciseId, references: [id])
 }
 
 model Account {
-  id                 String  @id @default(cuid())
-  userId             String
-  type               String
-  provider           String
-  providerAccountId  String
-  refresh_token      String?  @db.Text
-  access_token       String?  @db.Text
-  expires_at         Int?
-  token_type         String?
-  scope              String?
-  id_token           String?  @db.Text
-  session_state      String?
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.Text
+  session_state     String?
 
   user User @relation(fields: [userId], references: [id], onDelete: Cascade)
 
@@ -84,9 +84,9 @@ model Session {
 }
 
 model User {
-  id            String    @id @default(cuid())
+  id            String     @id @default(cuid())
   name          String?
-  email         String?   @unique
+  email         String?    @unique
   emailVerified DateTime?
   image         String?
   accounts      Account[]
