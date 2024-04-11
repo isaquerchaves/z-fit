@@ -1,6 +1,8 @@
 'use client'
 import React from 'react';
 import { useFetchExercises } from '@/app/hooks/useFetch';
+import { ScrollArea } from '@radix-ui/react-scroll-area';
+import ExercisesCard from './components/exercises-card';
 
 const ExercisePage: React.FC<any> = ({ params }) => {
   const muscleSlug = params.muscleSlug;
@@ -8,9 +10,18 @@ const ExercisePage: React.FC<any> = ({ params }) => {
 
   return (
     <div>
-      {exercises.map((exercise: any) => (
-        <p key={exercise.ID}>{exercise.Name}</p>
-      ))}
+      <ScrollArea className='h-full'>
+        <div>
+          {exercises.map((exercise:any) => (
+            <div>
+            <ExercisesCard 
+              key={exercise.ID}
+              exercise={exercise}
+            />
+            </div>
+          ))}
+        </div>
+      </ScrollArea>
     </div>
   );
 };

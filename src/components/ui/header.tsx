@@ -20,7 +20,7 @@ const Header = () => {
                         <SheetTitle>Z-Fit</SheetTitle>
                         <SheetDescription>
                             <SheetClose asChild>
-                                <Link href={'/catalog'}>
+                                <Link href={'/muscles'}>
                                     Músculos
                                 </Link>
                             </SheetClose>
