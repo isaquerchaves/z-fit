@@ -9,8 +9,7 @@ const ExercisePage: React.FC<any> = ({ params }) => {
   const exercises = useFetchExercises(muscleSlug)
 
   return (
-    <div>
-      <ScrollArea className='h-full'>
+      <ScrollArea className='h-full overflow-auto'>
         <div>
           {exercises.map((exercise:any) => (
             <div>
@@ -22,7 +21,6 @@ const ExercisePage: React.FC<any> = ({ params }) => {
           ))}
         </div>
       </ScrollArea>
-    </div>
   );
 };
 

@@ -6,7 +6,7 @@ import { ScrollArea } from '@/components/ui/scroll-area';
 function Muscles() {
 
   return (
-    <ScrollArea >
+    <ScrollArea className='h-full overflow-auto' >
       <div className="flex flex-col gap-8 p-5 lg:container">
           <MuscleCard />
       </div>
