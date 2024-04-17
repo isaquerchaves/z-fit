@@ -21,3 +21,13 @@ export async function fetchExercises(muscleSlug: string) {
     return [];
   }
 }
+
+export async function fetchTrainigSplit() {
+  try {
+    const response = await axios.get(`${API_BASE_URL}/split`);
+    return response.data.split;
+  } catch (error) {
+    console.error('Error fetching split:', error);
+    return [];
+  }
+}
