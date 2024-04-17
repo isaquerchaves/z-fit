@@ -1,3 +1,4 @@
+'use client'
 import React from 'react';
 import { useFetchSplits } from "@/app/hooks/useFetch";
 

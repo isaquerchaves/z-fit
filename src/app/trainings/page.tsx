@@ -1,14 +1,16 @@
-import Login from "@/components/ui/login";
+'use client'
+
 import CreateTraining from "./components/create-training";
+import Login from "@/components/ui/login";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/auth";
 
 const Trainings = async () => {
-    const session = await getServerSession(authOptions);
+    // const session = await getServerSession(authOptions);
 
-    if (!session || !session.user) {
-        return <Login />;
-    }
+    // if (!session || !session.user) {
+    //     return <Login />;
+    // }
 
     return (
         <>
